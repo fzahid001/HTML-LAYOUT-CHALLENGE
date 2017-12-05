@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>QUIZ</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+       
+
+        <script type="text/javascript" src="js/custom.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="body-quiz" >
+            
+            <img src="img/mobile-menu.png" class="mobile-menu-btn" id="mobile-menu-btn" onclick="toggle_mobile_menu()"/>
+            
+            <div class="mobile-menu-box" id="mobile-menu-box">
+                <ul class="mobile-menu">
+                        <li class="mobile-menu-item">
+                            <a href="" class="mobile-menu-link">Dashboard</a>
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a href="" class="mobile-menu-link">Library</a>
+                        </li>
+                            
+                        <li class="mobile-menu-item">
+                            <a href="" class="mobile-menu-link">Settings</a>
+                        </li>
+                            
+                        <li class="mobile-menu-item">
+                            <a href="" class="mobile-menu-link">Studio</a>
+                        </li>
+                    </ul>
+                    <hr id="mobile-menu-hr"/>
+                    <ul class="mobile-menu signout">
+                            <li class="mobile-menu-item">
+                               <a href="" class="mobile-menu-link">Sign out</a>
+                            </li>
+                    </ul>
+            </div>
+
+            <div class="dash-menu">
+                <div class="menu-tab">
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="#"></a><img src="img/dashboard.png" alt="menu-icon" id="menu-icon"></a>
+                            <a href="" class="menu-link">Dashboard</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#"><img src="img/books.png" alt="menu-icon" id="menu-icon"></a>
+                            <a href="" class="menu-link">Library</a>
+                        </li>
+                            
+                        <li class="menu-item">
+                            <a href="#"><img src="img/settings.png" alt="menu-icon" id="menu-icon"></a>
+                            <a href="" class="menu-link">Settings</a>
+                        </li>
+                            
+                        <li class="menu-item">
+                            <a href="#"><img src="img/volume-levels.png" alt="menu-icon" id="menu-icon"></a>
+                            <a href="" class="menu-link">Studio</a>
+                        </li>
+                    </ul>
+                    <hr id="menu-hr"/>
+                    <ul class="menu signout">
+                            <li class="menu-item">
+                                <a href="#"><img src="img/dashboard.png" alt="menu-icon" id="menu-icon"></a>
+                                <a href="" class="menu-link">Sign out</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-window">
+                <div class="question-window-inner">
+                    <div class="question-top-bar">
+                        <div class="question-top-bar-inner">
+                                <span class="question-top-bar-text" id="question-top-bar-text"><img src="img/volume-control.png" ><p>Ember.js and how sheep will rule the world using it.</p></span>
+                                <span class="champ" id="champ"><img src="img/trophy.png" ><p>65</p></span>
+                        </div>
+                    </div>
+                    <div class="question-main">
+                        <div class="question-main-question">
+                            <h3>Which line of code creates an instance of the Person?</h3>
+                            <h6>Question # 2</h6>
+                            <div class="question-choices-box">
+                                <form action="#" class="choice-box-form">
+                                    <span> <input type="checkbox" name="choice1" id="">Person.create();</span><br>
+                                    <span> <input type="checkbox" name="choice1" id="">Person.extend();</span><br>
+                                    <span> <input type="checkbox" name="choice1" id="">Person.new();</span><br>
+                                    <span> <input type="checkbox" name="choice1" id="">Person.init();</span><br>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+            <div class="details-window">
+                    
+            </div>
+        </div>
+
+    </body>
+</html>
